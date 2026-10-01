@@ -1,0 +1,11 @@
+@FunkoApp_HostAddress = http://localhost:5080
+
+GET {{FunkoApp_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{FunkoApp_HostAddress}}/todos/1
+Accept: application/json
+
+###
